@@ -62,14 +62,15 @@ submit.addEventListener("click",()=>{
     else{
     onsub.setAttribute('style','display:none');
     alert("Thank you for submitting your comment!!");
-    }
-    
-var comment =document.getElementById("cmt");
-const db=firebase.database();
-const ref=db.ref("data/");
-var inputs=db.ref().child('data').push().key;
-db.ref("data/"+inputs).set({
+    var comment =document.getElementById("cmt");
+    const db=firebase.database();
+      const ref=db.ref("data/");
+     var inputs=db.ref().child('data').push().key;
+      db.ref("data/"+inputs).set({
     comments: document.getElementById("cmt").value,
 })
 comment.value='';
+    }
+    
+
 })
