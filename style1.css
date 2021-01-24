@@ -1,0 +1,70 @@
+body{
+   
+    background-image: url("data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxAPDQ0NDQ0NDQ0NDQ0NDQ0NDQ8NDQ0NFREWFhURFRMYHSggGBolGxUTITEhJSkrLi4uFx8zODMtNygtLisBCgoKBQUFDgUFDisZExkrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrK//AABEIALIBHAMBIgACEQEDEQH/xAAZAAADAQEBAAAAAAAAAAAAAAAAAQIDBAf/xAAhEAEBAAICAgMBAQEAAAAAAAAAAQIRAxIxUSFBYROBcf/EABQBAQAAAAAAAAAAAAAAAAAAAAD/xAAUEQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIRAxEAPwD0sAAAAAAAAA9ACVMac4wQbScaphAYnMb6baMGM46qcf60AImEVIej630CbhPSbxtLADG8ZdGw0DDrS036loGIal1gMwvoXQEhXSpsAAgAAPQEnJacgMA4AGj0AOQaOYtsMJ9gykOYtun4NAykPTQAiSq/nTbY3cBj/P8AT/nGui6gjpPR6PQAAABZuMq2hZY7/wCgy0cw20mGjBncB1aWIBNxiLjpqAYhWWHpIEiqySCbiTSQXjBEhgAlOSk5Ao8YS+MBMVAAcjVnxxoB45aXqVmcoHcE2NMcjBk04r9C4Jk1Qag9H1oJGldD6Az6lpvONU44DmxXI6Os9JuM9AyTcW3SF/P9BinKN7gm8dBgDyx0NAScsGmgDmuN2cxXlPmkAKnSBnlPlLTKfDME1OS8kZAppiziwXSUWgXhPhQkPX4BA+tHWgS8cvZdaOlBa+PFGGFdWOGgScxXoAmYqkAAAABBYIYICrEgABQRnUXGKAIuCbhWoBhlj7ZWadaOSSzwDloFgAMsp8tU5wGWSMmlZ5AvFcm04NcZoDhkAbYZfSmDfj+QByNJhFAzmHtcxMAePlrKzwWB6LRyqBAVYnQAAAcAgAJsUAQnOrrK0AC2QHstgAE5qZ5+QRniybs88QQAAZZRlk6M458vIN+PH4aJwy+FbAAADkbY/CcJpQNJVSpx8HoFBJ7Bph4UWPgwBykAWExQFYnTTQ0CIFWAE6PRptAsp9Mrg1AMeo6tLikEdR1WARpjW3Jl9MgIrFFaDGzRL5PpABz8k+W9rHky+QXhWjBtKB7Xx+UKgNgjHP2sF4LZ4eWgAAA0xvwraMPCgUEnsFQy2NgY2WxsFbKp2VA7SRdlsGgR2o7AsrE9h2ArCtV2Y8uXrwCbU7LYAbAAI5PpmvkY5UBlWWXlpWdBS+O/SDgNoosfZgDxy0QBtjk2ckrbHl+PANQz/p+D+n4DfjUww5PxrKB7IADPZQArZoALSm5n2AyuI2YICrE2AAEZ5fQFnl9RmABWJWLAQNjL4ZZZbAuW78M17FBnkiqzTQUAKC+KtJkwwvy2BUpoGwWeNRMlSg1EhY1pIAOXRAGuOamCsc9A2CZltWwCbStK0DCbnC/p+AsMryUrlfYN+xf0n4wANM+WTxtj/QuTx/rMGncu9SAV2pbIrQTnUqqQCbStICpGQKKmkDbSsV8eXxoGgTstgrZbJWMBeGVjScjIA37DtWMqpn7Bp2o7JlMD7UXmqagGv9P2jbIA2DKZVUzBYTMoYGAARyeP9ZtOTwyAwCyyAsskzIgB5ZItGaQMFsbAgZAqpOkAAAKmSpkgbBrjFsOx9gbDbHsOwNtjbLsOwNdqnIx7DYN7lKTI5kDQFMjAAC0Ae2d5J7Teb1AbzI5m5by38ibnfdB18mU15Zd57YEDa8sR3QYK7jugAdpAAZAAAAAMAAAAAAAAAAAAAAAAAANgAqVrxmAY8mV35qQAAAAAAAAAAAAAAAAAIGAIjAP/2Q==");
+    
+  }
+  #title
+  {
+      font-size: 30px;
+      font-family: 'Trade Winds', cursive;
+      display: block;
+  }
+  header{
+      border: double;
+  }
+  .art
+  {
+     font-size: 25px;
+     font-family:fantasy ;
+  }
+  #box
+  {
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+    width: 80%;
+    display: block;
+  }
+  #more
+  {
+      display:none;
+  }
+  #more1
+  {
+      display:none;
+  }
+  #more2
+  {
+      display: none;
+  }
+ 
+ #box1{
+    display: flex;
+ }
+ #cmt{
+
+     margin-top: 35px;
+ }
+ #submit
+ {
+     width: fit-content;
+     height:fit-content;
+     margin-top: 70px;
+     margin-left:10px;
+ }
+#box4{
+    background-color: white;
+    margin-right: 2%;
+    height:fit-content;
+    margin-top: 20px;
+    width: fit-content;
+    border-radius: 15px;
+    text-align: center;
+    word-spacing: 3px;
+    
+    
+}
+#border{
+    display: flex;
+    
+}
