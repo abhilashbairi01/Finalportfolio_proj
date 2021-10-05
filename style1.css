@@ -22,7 +22,7 @@ body{
     background-color: white;
     padding: 20px;
     margin-top: 20px;
-    width: 80%;
+    width: 70%;
     display: block;
   }
   #more
@@ -40,6 +40,7 @@ body{
  
  #box1{
     display: flex;
+
  }
  #cmt{
 
@@ -57,7 +58,7 @@ body{
     margin-right: 2%;
     height:fit-content;
     margin-top: 20px;
-    width: fit-content;
+    width:70%;
     border-radius: 15px;
     text-align: center;
     word-spacing: 3px;
@@ -68,3 +69,26 @@ body{
     display: flex;
     
 }
+
+@media screen and (max-width:450px)
+{
+  
+  #box1{
+    flex-direction: column;
+  }
+  #box1>h1{
+      text-align: center;
+  }
+  #submit{
+    margin-left: auto;
+    margin-right: auto;
+     display: table;
+  }
+  #cmt{
+      width:60%;
+      margin-left: auto;
+      margin-right: auto;
+     display: table;
+  }
+}
+
