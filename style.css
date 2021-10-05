@@ -51,6 +51,8 @@ h2{
 {
   border: double;
   background-color: white;
+  width:100%;
+  overflow-x: auto;
 }
 .t1
 {
@@ -59,6 +61,7 @@ h2{
   width:300px;
   padding:10px;
   margin-right: 10px;
+  margin-top: 10px;
   background-color: white;
   
 }
@@ -75,12 +78,31 @@ h2{
 }
 #carousel{
    
-    width:600px;
-    height:300px;
+    /* width:600px; */
+    /* height:300px; */
+    width:50%;
+    height:30%;
     background-color: white;
     border: 1px groove;
     text-align: center;
 
+}
+@media screen and (max-width:450px)
+{
+  #carousel{
+    width:80%;
+    height:30%;
+    background-color: white;
+    border: 1px groove;
+    text-align: center;
+  }
+   .container{
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+     display: table;
+     
+  }
 }
 h3{
     
@@ -103,8 +125,12 @@ h3{
     border:1px solid;
     background-color:white;
     font-family: 'Cinzel', serif;
+    
    
 
+}
+#set{
+  overflow-x: auto;
 }
 .form
 {
